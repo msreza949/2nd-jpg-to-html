@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+}
+body{
+	background: url('../img/bg/1.jpg') no-repeat;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/**Login Section Css**/
+.login-form {
+	width: 30%;
+	margin: 5% auto;
+	background: #fff;
+	min-height: 300px;
+	border-radius: 10px;
+}
+.login-form form {
+	padding: 15px;
+}
+/**login-form form Css**/
+.login-form form h1{	
+	text-align: center;
+	padding: 40px 0 40px 0;
+	font-weight: 700;
+	font-size: 30px;
+}
+.login-form form label {
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 10px 0 5px 10px;
+	font-size: 12px;
+	color: #595757;
+}
+.login-form form .form-control {
+	width: 90%;
+	padding: 7px 0 7px 0;
+	border-bottom: 1px solid #c5b7b7;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-indent: 35px;
+	color: #8c7e7e;
+	font-weight: 600;
+	font-size: 11px;
+}
+.login-form form img {
+	position: relative;
+	left: 30px;
+	top: 3px;
+	width: 12px;
+	height: 12px;
+}
+.login-form form .forget-password {
+	float: right;
+	padding: 10px 10px 5px 0;
+	color: #8c8989;
+	text-decoration: navajowhite;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.login-form form .login-btn {
+	width: 95%;
+	display: block;
+	padding: 5px 0px 5px 0;
+	margin: 0 auto;
+	background: #c431f9;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	font-size: 17px;
+	font-weight: 500;
+	background: linear-gradient(to right, #11f3db, #32daed, #2397e0, #7319d4, #9518e1, #b112c9, #ed18f3);
+}
+
+/**Bottom Section Css**/
+.login-with {
+	text-align: center;
+	padding: 5px;
+	font-size: 12px;
+	margin-top: 40px;
+	color: #838282;
+}
+/**Bottom Section Css**/
+.social{
+	margin: 0 auto;
+	padding: 10px 0 70px 70px;
+}
+.social ul li{
+	list-style: none;
+}
+.social ul li a {
+	text-decoration: navajowhite;
+	float: left;
+	display: block;
+	padding: 3px;
+}
+.social img{
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+.bottom-option {
+	margin: 30% auto;
+}
+.bottom-option p {
+	text-align: center;
+	font-size: 13px;
+	color: #a29b9b;
+
+}
+.bottom-option a {
+	text-align: center;
+	display: block;
+	text-decoration: navajowhite;
+	color: #605b5b;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 15px 0 40px 0;
+}
